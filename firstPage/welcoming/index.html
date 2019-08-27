@@ -6,8 +6,9 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
           integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="styles.css"/>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 
-    <title>Title</title>
+    <title>SecondPage</title>
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
             integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
@@ -18,8 +19,47 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
             integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
             crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/8b87fff8b5.js"></script>
+
 </head>
 <body>
+<header class="fixed-top">
+    <div class="card align-items-center">
+        <a href=""><img src="/weakspot/assets/images/logo-weakspot.svg" class="img-fluid mb-3"
+                        alt="image-logo-black"></a>
+        <div class="d-flex justify-content-end">
+            <img src="/weakspot/assets/images/icon-user.svg" alt="image-user">
+            <p class="card-title align-self-end">Aurélien Boit</p>
+            <p class="card-subtitle text-muted align-self-end">10 crédits</p>
+        </div>
+    </div>
+</header>
 
+<div class="container h-100 mx-auto text-center">
+    <div class="row h-100 align-items-center">
+        <div class="col-12">
+            <img src="/weakspot/assets/images/icon-loupe.svg" class="img-fluid mb-3"
+                 alt="image-logo-loupe">
+
+            <h1>Bonjour Aurélien</h1>
+            <form class="mx-auto p-0 shadow rounded">
+                <input type="text" class="form-control mb-0 mt-0 text-center"
+                       placeholder="Entrez un nom de domaine ou une adresse email pour vérifier votre exposition"
+                       aria-describedby="inputGroup-sizing-default">
+            </form>
+            <div class="row float-right">
+                <div class="col-10">
+                    <i class="fas fa-arrow-alt-circle-right"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<footer class="fixed-bottom">
+    <div class="card align-items-center">
+        <p class="card-title">©Weakspot 2018 - Mentions légales - Contact</p>
+    </div>
+</footer>
 </body>
 </html>
