@@ -13,6 +13,10 @@ body {
     line-height: 1.5;
 }
 
+.relative-top {
+    padding-bottom: 15px;
+}
+
 .img-fluid {
     width: 100px;
 }
