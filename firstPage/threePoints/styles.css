@@ -78,6 +78,7 @@ section {
 .prevent {
     background-image: url('../../assets/images/weakspot-mesuer-empreinte (1).jpg');
     background-size: cover;
+    margin-left: 0px;
 }
 
 
