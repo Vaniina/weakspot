@@ -28,7 +28,11 @@ h1 {
 
 }
 
-.img-fluid {
+header .img-fluid {
+    width: 100%;
+}
+
+.container .img-fluid {
     width: 100px;
 }
 
@@ -41,22 +45,17 @@ h1 {
     color: #007bff !important;
 }
 
-header .fixed-top {
-    position: absolute;
-    background-color: white;
-    top: 13px;
-    padding-bottom: 9px;
-    padding-right: 30px;
-    margin-block-end: 15px;
+header.fixed-top a {
+    width: 140px;
 }
 
-footer .align-items-center {
-    background-color: #272727;
+header .position-absolute {
+    top: 3px;
+    right: 0px;
 }
 
-.bg-dark {
+footer .bg-dark {
     background-color: #272727 !important;
-    padding-top: 10px;
 }
 
 
