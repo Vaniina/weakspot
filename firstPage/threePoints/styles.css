@@ -78,3 +78,27 @@ section {
 footer .bg-dark {
     background-color: #272727 !important;
 }
+
+.hundred {
+    font-size: 80px;
+}
+
+.thirty {
+    font-size: 80px;
+}
+
+.twenty {
+    font-size: 80px;
+}
+
+.mail {
+    font-size: 26px;
+}
+
+.update {
+    font-size: 26px;
+}
+
+.admin {
+    font-size: 26px;
+}
